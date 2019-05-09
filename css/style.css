@@ -1,0 +1,11 @@
+* {
+    font-family: 'Sanomat Grab Web Regular', sans-serif;
+    font-size: 16px;
+}
+a:hover {
+    color: #00B13F;
+}
+
+a {
+    color: black;
+}
