@@ -4,8 +4,20 @@
 }
 a:hover {
     color: #00B13F;
+    text-decoration: none;
 }
 
 a {
     color: black;
+}
+
+.drive-with-grab {
+    border: 2px solid #00B13F;
+    border-radius: 5%;
+    color: #00B13F;
+}
+
+.background-green a:hover {
+    background-color: #00B13F;
+    color: white;
 }

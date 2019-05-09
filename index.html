@@ -40,9 +40,9 @@
                         width="30px" height="30px">
                 </a>
                 <div class="dropdown-menu" style="position: fixed; top: 60px; text-align: center;">
-                    <a href="#" class="dropdown-item col-sm-1 mx-4 " style="display: inline;">Singapore</a>
-                    <a href="#" class="dropdown-item col-sm-1 mx-4" style="display: inline;">Malaysia</a>
-                    <a href="#" class="dropdown-item col-sm-1 mx-4" style="display: inline;">Indonesia</a>
+                    <a href="#" class="dropdown-item-block col-sm-1 mx-4 " style="display: inline;">Singapore</a>
+                    <a href="#" class="dropdown-item-block col-sm-1 mx-4" style="display: inline;">Malaysia</a>
+                    <a href="#" class="dropdown-item-block col-sm-1 mx-4" style="display: inline;">Indonesia</a>
                 </div>
 
             </li>
@@ -51,9 +51,9 @@
                     Services
                 </a>
                 <div class="dropdown-menu" style="position: fixed; top: 60px; text-align: center;">
-                    <a href="#" class="dropdown-item col-sm-1 mx-4 " style="display: inline;">GrabTaxi</a>
-                    <a href="#" class="dropdown-item col-sm-1 mx-4" style="display: inline;">GrabCar</a>
-                    <a href="#" class="dropdown-item col-sm-1 mx-4" style="display: inline;">GrabBike</a>
+                    <a href="#" class="dropdown-item-block col-sm-1 mx-4 " style="display: inline;">GrabTaxi</a>
+                    <a href="#" class="dropdown-item-block col-sm-1 mx-4" style="display: inline;">GrabCar</a>
+                    <a href="#" class="dropdown-item-block col-sm-1 mx-4" style="display: inline;">GrabBike</a>
                 </div>
             </li>
             <li class="nav-item dropdown px-2" style="display: table-cell;">
@@ -61,8 +61,8 @@
                     Corporate
                 </a>
                 <div class="dropdown-menu" style="position: fixed; top: 60px; text-align: center;">
-                    <a href="#" class="dropdown-item col-sm-1 mx-4 " style="display: inline;">Grab for Business</a>
-                    <a href="#" class="dropdown-item col-sm-1 mx-4" style="display: inline;">Partnership</a>
+                    <a href="#" class="dropdown-item-block col-sm-1 mx-4 " style="display: inline;">Grab for Business</a>
+                    <a href="#" class="dropdown-item-block col-sm-1 mx-4" style="display: inline;">Partnership</a>
                 </div>
 
             </li>
@@ -79,15 +79,23 @@
                 </a>
             </li>
         </ul>
-        <ul class="nav navbar-nav ml-auto" style="display: table-row;">
-            <li class="nav-item dropdown pt-0" style="display: table-cell; position: fixed;">
-                <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+        <li class="nav navbar-nav ml-auto  background-green" style="display: table-row;">
+            <div class="nav-item dropdown" style="display: table-cell;">
+                <a class="nav-link dropdown-toggle drive-with-grab p-2" href="#" id="navbardrop" data-toggle="dropdown">
                     Drive with Grab
                 </a>
-                <div class="dropdown-menu" style=" top: 60px; text-align: center;">
-                    <a href="#" class="dropdown-item col-sm-1 mx-4 " style="display: inline;">Singapore</a>
-                    <a href="#" class="dropdown-item col-sm-1 mx-4" style="display: inline;">Malaysia</a>
-                    <a href="#" class="dropdown-item col-sm-1 mx-4" style="display: inline;">Indonesia</a>
-                </div>
-                </nav>
+            
+            <div class="dropdown-menu" style="position: fixed; top: 60px; text-align: center;">
+                <a href="#" class="dropdown-item-block col-sm-1">Application Walkthrough</a>
+                <a href="#" class="dropdown-item-block col-sm-1">Drive with Grab</a>
+                <a href="#" class="dropdown-item-block col-sm-1">Car Owner</a>
+                <a href="#" class="dropdown-item-block col-sm-1">Taxi Driver</a>
+            </div>
+        </div>
+        <li class="nav-item px-2" style="display: table-cell;">
+                <a class="nav-link moca" href="#" id="navbardrop" data-toggle="dropdown">
+                    Help Centre
+                </a>
+            </li>
+        </li>
 </body>
